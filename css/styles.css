@@ -760,13 +760,6 @@ img {
   letter-spacing: 0.04em;
 }
 
-.footer-input::placeholder {
-  color: var(--sub-text-color);
-  font-size: 12px;
-  line-height: 2; /* 200% */
-  letter-spacing: 0.04px;
-}
-
 .social-icon-footer {
   margin-left: 16px;
 }
