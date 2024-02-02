@@ -18,6 +18,7 @@
   </head>
   <body>
     <!-- Header -->
+
     <header class="page-header">
       <div class="container header-container">
         <nav class="nav">
@@ -120,16 +121,20 @@
         </div>
       </div>
     </header>
+
     <!-- Content -->
     <main>
       <!-- Hero -->
+
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
+
       <!-- Advantages -->
+
       <section class="section-advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -186,7 +191,9 @@
           </ul>
         </div>
       </section>
+
       <!-- Our Team -->
+
       <section class="section-team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
@@ -366,7 +373,9 @@
           </ul>
         </div>
       </section>
+
       <!-- Portfolio -->
+
       <section class="section-portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
@@ -374,13 +383,33 @@
             <li class="portfolio-item">
               <div class="portfolio-cover">
                 <picture>
+                  <!-- Desktop screen -->
                   <source
-                    srcset="./images/banking@2x.jpg"
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/products/desktop-banking@1x.jpeg 1x
+                      ./images/products/desktop-banking@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/products/tablet-banking@1x.jpeg 1x,
+                      ./images/products/tablet-banking@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
                     media="(max-width: 767px)"
+                    srcset="
+                      ./images/products/mobile-banking@1x.jpeg 1x,
+                      ./images/products/mobile-banking@2x.jpeg 2x
+                    "
                   />
                   <img
                     class="portfolio-image"
-                    src="./images/banking.jpg"
+                    src="./images/products/mobile-banking@1x.jpg"
                     alt="Banking app"
                     width="360"
                   />
@@ -400,13 +429,33 @@
             <li class="portfolio-item">
               <div class="portfolio-cover">
                 <picture>
+                  <!-- Desktop screen -->
                   <source
-                    srcset="./images/cashless@2x.jpg"
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/products/desktop-cashless@1x.jpeg 1x
+                      ./images/products/desktop-cashless@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/products/tablet-cashless@1x.jpeg 1x,
+                      ./images/products/tablet-cashless@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
                     media="(max-width: 767px)"
+                    srcset="
+                      ./images/products/mobile-cashless@1x.jpeg 1x,
+                      ./images/products/mobile-cashless@2x.jpeg 2x
+                    "
                   />
                   <img
                     class="portfolio-image"
-                    src="./images/cashless.jpg"
+                    src="./images/products/mobile-marketing@1x.jpg"
                     alt="Cashless cashless-payment"
                     width="360"
                   />
@@ -427,13 +476,33 @@
             <li class="portfolio-item">
               <div class="portfolio-cover">
                 <picture>
+                  <!-- Desktop screen -->
                   <source
-                    srcset="./images/app@2x.jpg"
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/products/desktop-app@1x.jpeg 1x
+                      ./images/products/desktop-app@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/products/tablet-app@1x.jpeg 1x,
+                      ./images/products/tablet-app@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
                     media="(max-width: 767px)"
+                    srcset="
+                      ./images/products/mobile-app@1x.jpeg 1x,
+                      ./images/products/mobile-app@2x.jpeg 2x
+                    "
                   />
                   <img
                     class="portfolio-image"
-                    src="./images/app.jpg"
+                    src="./images/products/mobile-app@1x.jpg"
                     alt="Meditation app"
                     width="360"
                   />
@@ -453,13 +522,33 @@
             <li class="portfolio-item">
               <div class="portfolio-cover">
                 <picture>
+                  <!-- Desktop screen -->
                   <source
-                    srcset="./images/taxi@2x.jpg"
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/products/desktop-taxi@1x.jpeg 1x
+                      ./images/products/desktop-taxi@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/products/tablet-taxi@1x.jpeg 1x,
+                      ./images/products/tablet-taxi@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
                     media="(max-width: 767px)"
+                    srcset="
+                      ./images/products/mobile-taxi@1x.jpeg 1x,
+                      ./images/products/mobile-taxi@2x.jpeg 2x
+                    "
                   />
                   <img
                     class="portfolio-image"
-                    src="./images/taxi.jpg"
+                    src="./images/products/mobile-taxi@1x.jpg"
                     alt="Taxi Service"
                     width="360"
                   />
@@ -479,13 +568,33 @@
             <li class="portfolio-item">
               <div class="portfolio-cover">
                 <picture>
+                  <!-- Desktop screen -->
                   <source
-                    srcset="./images/design@2x.jpg"
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/products/desktop-design@1x.jpeg 1x
+                      ./images/products/desktop-design@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/products/tablet-design@1x.jpeg 1x,
+                      ./images/products/tablet-design@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
                     media="(max-width: 767px)"
+                    srcset="
+                      ./images/products/mobile-design@1x.jpeg 1x,
+                      ./images/products/mobile-design@2x.jpeg 2x
+                    "
                   />
                   <img
                     class="portfolio-image"
-                    src="./images/design.jpg"
+                    src="./images/products/mobile-design@1x.jpg"
                     alt="Screen Illustrations"
                     width="360"
                   />
@@ -505,13 +614,33 @@
             <li class="portfolio-item">
               <div class="portfolio-cover">
                 <picture>
+                  <!-- Desktop screen -->
                   <source
-                    srcset="./images/courses@2x.jpg"
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/products/desktop-marketing@1x.jpeg 1x
+                      ./images/products/desktop-marketing@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/products/tablet-marketing@1x.jpeg 1x,
+                      ./images/products/tablet-marketing@2x.jpeg 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
                     media="(max-width: 767px)"
+                    srcset="
+                      ./images/products/mobile-marketing@1x.jpeg 1x,
+                      ./images/products/mobile-marketing@2x.jpeg 2x
+                    "
                   />
                   <img
                     class="portfolio-image"
-                    src="./images/courses.jpg"
+                    src="./images/products/mobile-marketing@1x.jpg"
                     alt="Online Courses"
                     width="360"
                   />
@@ -534,6 +663,7 @@
     </main>
 
     <!-- Footer -->
+
     <footer class="footer">
       <div class="container">
         <div class="wrap-footer-content">

@@ -70,6 +70,8 @@ p {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: block;
+  padding: 16px 0;
 }
 
 .logo-studio {
@@ -185,6 +187,7 @@ p {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+  max-width: 320px;
 }
 
 @media screen and (min-resolution: 192dpi) {
@@ -276,7 +279,7 @@ p {
   text-align: left;
 }
 
-/* ======Third Section=========== */
+/* ===========Third Section=========== */
 
 .section-team {
   padding-bottom: 96px;
@@ -310,6 +313,7 @@ p {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
   width: 264px;
+  margin: 0 auto;
 }
 
 .team-item:not(:last-child) {
@@ -742,6 +746,8 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ===============Tablet========== */
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -771,6 +777,9 @@ p {
     justify-content: space-between;
   }
 
+  .logo {
+    padding: 0;
+  }
   .nav {
     display: flex;
     align-items: center;
@@ -840,6 +849,7 @@ p {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-768.jpg);
+    max-width: 768px;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -922,9 +932,8 @@ p {
 
   /* ===Footer==== */
 
-  .footer {
-    padding-left: 92px;
-    padding-right: 148px;
+  .footer .container {
+    padding-left: 108px;
   }
 
   .wrap-footer-content {
@@ -938,7 +947,7 @@ p {
   }
 
   .logo-footer {
-    margin-left: 0;
+    text-align: left;
   }
 
   .text-footer-sub {
@@ -1000,6 +1009,7 @@ p {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-1158.jpg);
+    max-width: 1440px;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -1110,6 +1120,7 @@ p {
 
   .footer .container {
     display: flex;
+    padding-left: 15px;
   }
 
   .wrap-footer-form {
